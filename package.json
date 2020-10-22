@@ -1,0 +1,43 @@
+{
+  "name": "journal",
+  "version": "3.1.0",
+  "description": "Journal",
+  "main": "server.js",
+  "scripts": {
+    "client": "npm start",
+    "server": "nodemon server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Victor St-Louis",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/native": "^5.7.6",
+    "@react-navigation/stack": "^5.9.3",
+    "ajax-request": "^1.2.3",
+    "bcrypt": "^4.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-queue": "0.0.12",
+    "express-session": "^1.17.1",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.8",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "react-html-parser": "^2.0.2",
+    "react-native-gesture-handler": "^1.8.0",
+    "react-native-reanimated": "^1.13.1",
+    "react-native-safe-area-context": "^3.1.8",
+    "react-native-screens": "^2.11.0",
+    "react-router-dom": "^5.2.0",
+    "uniqid": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
